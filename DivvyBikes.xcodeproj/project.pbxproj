@@ -21,6 +21,8 @@
 		45B609751939296100A30A09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B609571939296100A30A09 /* UIKit.framework */; };
 		45B6097D1939296100A30A09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45B6097B1939296100A30A09 /* InfoPlist.strings */; };
 		45B6097F1939296100A30A09 /* DivvyBikesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B6097E1939296100A30A09 /* DivvyBikesTests.m */; };
+		45B6098A19392F3E00A30A09 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B6098919392F3E00A30A09 /* MapViewController.m */; };
+		45B6098C1939315400A30A09 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B6098B1939315400A30A09 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		45B6097A1939296100A30A09 /* DivvyBikesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DivvyBikesTests-Info.plist"; sourceTree = "<group>"; };
 		45B6097C1939296100A30A09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		45B6097E1939296100A30A09 /* DivvyBikesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DivvyBikesTests.m; sourceTree = "<group>"; };
+		45B6098819392F3E00A30A09 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		45B6098919392F3E00A30A09 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		45B6098B1939315400A30A09 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45B6098C1939315400A30A09 /* MapKit.framework in Frameworks */,
 				45B609561939296100A30A09 /* CoreGraphics.framework in Frameworks */,
 				45B609581939296100A30A09 /* UIKit.framework in Frameworks */,
 				45B609541939296100A30A09 /* Foundation.framework in Frameworks */,
@@ -101,6 +107,7 @@
 		45B609521939296100A30A09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				45B6098B1939315400A30A09 /* MapKit.framework */,
 				45B609531939296100A30A09 /* Foundation.framework */,
 				45B609551939296100A30A09 /* CoreGraphics.framework */,
 				45B609571939296100A30A09 /* UIKit.framework */,
@@ -115,6 +122,8 @@
 				45B609621939296100A30A09 /* AppDelegate.h */,
 				45B609631939296100A30A09 /* AppDelegate.m */,
 				45B609651939296100A30A09 /* Main.storyboard */,
+				45B6098819392F3E00A30A09 /* MapViewController.h */,
+				45B6098919392F3E00A30A09 /* MapViewController.m */,
 				45B609681939296100A30A09 /* ViewController.h */,
 				45B609691939296100A30A09 /* ViewController.m */,
 				45B6096B1939296100A30A09 /* Images.xcassets */,
@@ -252,6 +261,7 @@
 				45B6096A1939296100A30A09 /* ViewController.m in Sources */,
 				45B609641939296100A30A09 /* AppDelegate.m in Sources */,
 				45B609601939296100A30A09 /* main.m in Sources */,
+				45B6098A19392F3E00A30A09 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
